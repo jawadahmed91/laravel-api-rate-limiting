@@ -1,0 +1,11 @@
+{
+    "name": "jawadahmed91/laravel-api-rate-limiting",
+    "description": "Reusable API rate-limiting patterns for Laravel 13",
+    "type": "library",
+    "license": "MIT",
+    "require": {"php": "^8.3", "illuminate/cache": "^13.0", "illuminate/support": "^13.0"},
+    "require-dev": {"phpunit/phpunit": "^12.0"},
+    "autoload": {"psr-4": {"JawadAhmed\\ApiRateLimiting\\": "src/"}},
+    "autoload-dev": {"psr-4": {"Tests\\": "tests/"}},
+    "scripts": {"test": "phpunit"}
+}
